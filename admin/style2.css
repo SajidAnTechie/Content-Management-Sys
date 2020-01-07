@@ -1,0 +1,190 @@
+#background-for-body{
+    background: url("img/back.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.table-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 88px;
+}
+
+.text-edito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile{
+    border-radius: 50%;
+    max-width: 50px;
+    height: 50px;
+    border: 0.1rem solid #d1d1d1;
+}
+.forstyle-sidebar {
+    margin-top: 58px;
+}
+.for-profile-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 196px;
+    align-items: center;
+}
+.bbtt {
+    border: none;
+    color: #cbbde1;
+    background: transparent;
+}
+li.profile {
+    padding: 12px;
+    background: #a682cf;
+    height: 51px;
+}
+
+@media (min-width: 768px){
+.sidebar.toggled .profile {
+    font-size: 0.65rem;
+    display: block;
+    text-align: center;
+}
+}
+i#sett {
+    color: #c9bbdf;
+}
+@media(max-width:1023px){
+    .bbtt{
+        width: 83px;
+        margin-left: -87px;
+        position: relative;
+        top: 34px;
+    }
+}
+.bg-dark {
+    background-color: #2c86cb!important;
+}
+
+.background{
+    background-image:url("img/sidebar-5.jpg");
+    overflow: hidden;
+    color: #FFFFFF
+}
+#tinted-image{
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        #8d5acd75, 
+        #8d5acdd4
+    ),
+    /* bottom, image */
+    url("img/sidebar-5.jpg");
+    margin-top: -7px;
+}
+#tinted-image-two{
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        #8759c075, 
+        #8d5acd80
+    ),
+    /* bottom, image */
+    url("img/sidebar-52.jpg");
+  
+}
+div#profile-img {
+    margin-bottom: 8px;
+}
+li.nav-item:hover {
+    background: #8772ae8a;
+    /* margin-top: 1px; */
+
+}
+
+/* for-login */
+
+#avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
+
+.form-background{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 330px;
+    height: 406px;
+    background: #15151696;
+    padding: 7px;
+    color: white;
+    border-radius: 24px 0px 19px 0px;
+}
+.for-image{
+    position: absolute;
+    top: -45px;
+    left: calc(50% - 50px);
+    border-radius: 50%;
+}
+.form-content {
+    margin-top: 55px;
+    padding: 20px;
+}
+.form-content h3{
+    text-align: center;
+    margin-bottom: 22px;
+    font-weight: bold;
+}
+
+input#username {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    width: 100%;
+   font-size: 14px;
+    color: white;
+    height: 35px;
+
+}
+#password{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    height: 35px;
+
+}
+label#label-username {
+    font-weight: bold;
+}
+label#label-password {
+    font-weight: bold;
+}
+#submit-login {
+    border: none;
+    background-color: #fb2525;
+    width: 100%;
+    height: 37px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 24px;
+    color: white;
+}
+#submit-login:hover {
+ 
+    background-color: #ffc300;
+   
+}
+label.field__toggle {
+    font-size: 14px;
+    color: darkgrey;
+}
